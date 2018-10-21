@@ -77,7 +77,7 @@
     <session id="528057976">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.15" value="2" />
@@ -131,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task/start/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="73" column="66" lean-forward="true" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
                 <marker date="1540155174195" expanded="true" signature="215:220" ph="..." />
@@ -198,7 +198,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="650" />
@@ -394,7 +394,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info x="386" y="155" width="288" height="613" id="Project" order="0" sideWeight="0.8042414" visible="true" weight="0.16839585" />
       <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.18923327" side_tool="true" weight="0.1963288" />
@@ -623,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task/start/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        <state relative-caret-position="238">
+          <caret line="73" column="66" lean-forward="true" selection-start-line="73" selection-start-column="66" selection-end-line="73" selection-end-column="66" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
             <marker date="1540155174195" expanded="true" signature="215:220" ph="..." />
