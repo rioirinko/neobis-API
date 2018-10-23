@@ -11,16 +11,6 @@ class CoursesViewSet(generics.ListCreateAPIView):
         serializer.save()
 
 
-class BranchViewSet(generics.ListCreateAPIView):
-    queryset = Branch.objects.all()
-    serializer_class = BranchSerializer
-
-
-class ContactViewSet(generics.ListCreateAPIView):
-    queryset = Contact.objects.all()
-    serializer_class = ContactSerializer
-
-
 class CoursesDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Courses.objects.all()
     serializer_class = CoursesSerializer
