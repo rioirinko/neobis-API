@@ -40,6 +40,10 @@ class Branch(models.Model):
     longitude = models.CharField(max_length=100, verbose_name='Долгота')
     course = models.ForeignKey(Course, related_name='branches', on_delete=models.CASCADE)
 
+    class Meta:
+        verbose_name = 'Местоположение'
+        verbose_name_plural = 'Местоположение'
+
     def __unicode__(self):
         return self.address
 
@@ -48,6 +52,10 @@ class Contact(models.Model):
     type = models.IntegerField(choices=STATUS_CHOICES, default=1)
     value = models.CharField(max_length=100)
     course = models.ForeignKey(Course, related_name='contacts', on_delete=models.CASCADE)
+
+    class Meta:
+        verbose_name = 'Контактные данные'
+        verbose_name_plural = 'Контактные данные'
 
     def __unicode__(self):
         return self.type

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07411202-974a-4409-90a5-4db881f4320b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task/os.path.join(BASE_DIR, 'db.sqlite3')," beforeDir="false" afterPath="$PROJECT_DIR$/task/os.path.join(BASE_DIR, 'db.sqlite3')," afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/start/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/start/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/start/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/start/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task/start/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/start/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/start/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/start/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/start/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/start/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/start/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/start/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/task/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/task/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,26 +120,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="4" />
-          <entry key="py" value="57" />
+          <entry key="py" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="57" />
+          <entry key="Python" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="6" />
           <entry key="env" value="14" />
-          <entry key="py" value="3650" />
+          <entry key="py" value="3720" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="3656" />
+          <entry key="Python" value="3726" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -158,29 +151,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task/task/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="80" column="45" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task/start/tests.py">
+        <entry file="file://$PROJECT_DIR$/task/start/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="223">
+              <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -205,13 +180,13 @@
         <option value="$PROJECT_DIR$/task/start/tests/test_views.py" />
         <option value="$PROJECT_DIR$/task/start/urls.py" />
         <option value="$PROJECT_DIR$/task/start/views.py" />
-        <option value="$PROJECT_DIR$/task/start/models.py" />
         <option value="$PROJECT_DIR$/task/start/admin.py" />
         <option value="$PROJECT_DIR$/task/start/serializers.py" />
         <option value="$PROJECT_DIR$/task/task/urls.py" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/task/task/settings.py" />
         <option value="$PROJECT_DIR$/task/start/tests.py" />
+        <option value="$PROJECT_DIR$/task/start/models.py" />
       </list>
     </option>
   </component>
@@ -638,17 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task/start/models.py">
+    <entry file="file://$PROJECT_DIR$/task/start/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="915">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
@@ -659,10 +627,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task/start/tests.py">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/start/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
         </state>
       </provider>
     </entry>
