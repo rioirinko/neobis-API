@@ -12,8 +12,10 @@ class CoursesTestCase(TestCase):
         self.courses_description = 'Dad'
         self.courses_category = 'Cat'
         self.courses_logo = 'Sun'
-        self.courses = Course(name=self.courses_name, description=self.courses_description,
-                               category=self.courses_category, logo=self.courses_logo,)
+        self.courses = Course(name=self.courses_name, description=self.courses_description, logo=self.courses_logo,)
+
+        self.category_name = ''
+        self.category = Category(name=self.category_name,)
 
         self.contact_type = 1
         self.contact_value = '0556123654'
@@ -41,7 +43,7 @@ class ViewsTestCase(TestCase):
         self.client = APIClient()
         self.courses_data = {'name': 'Dance',
                              'description': 'Dad',
-                             'category': 'Cat',
+                             'category': '',
                              'logo': 'Sun',
                              'contacts': [
                                  {
