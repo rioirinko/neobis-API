@@ -12,8 +12,9 @@ class ContactInline(admin.StackedInline):
     extra = 0
 
 
-class CoursesAdmin(admin.ModelAdmin):
+class CourseAdmin(admin.ModelAdmin):
     inlines = [ContactInline, BranchInline]
 
 
-admin.site.register(Courses, CoursesAdmin)
+admin.site.register(Course, CourseAdmin)
+admin.site.register(Category)

@@ -21,7 +21,8 @@ from rest_framework.urlpatterns import format_suffix_patterns
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
-    url(r'^courses/(?P<pk>[0-9]+)/$', views.CoursesDetailView.as_view(), name="details"),
-    url(r'^courses/$', views.CoursesViewSet.as_view(), name="create"),
+    url(r'^courses/(?P<pk>[0-9]+)/$', views.CourseDetailView.as_view(), name="details"),
+    url(r'^courses/$', views.CourseViewSet.as_view(), name="create"),
+    url(r'^category/$', views.CategoryViewSet.as_view()),
 ]
 urlpatterns = format_suffix_patterns(urlpatterns)

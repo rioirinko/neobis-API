@@ -7,10 +7,23 @@ STATUS_CHOICES = (
 )
 
 
-class Courses(models.Model):
+class Category(models.Model):
+    name = models.CharField(max_length=100, verbose_name='Название')
+    imgpath = models.CharField(max_length=100)
+
+    class Meta:
+        verbose_name = 'Категория'
+        verbose_name_plural = 'Категории'
+
+    def __str__(self):
+        return self.name
+
+
+class Course(models.Model):
     name = models.CharField(max_length=100, verbose_name='Название')
     description = models.CharField(max_length=100, verbose_name='Описание')
-    category = models.CharField(max_length=100, verbose_name='Категория')
+    category = models.ForeignKey(Category,related_name='category', on_delete=models.CASCADE,
+                                 verbose_name='Категория', null=True,)
     logo = models.CharField(max_length=100, verbose_name='Логотип')
 
     def __str__(self):
@@ -25,7 +38,7 @@ class Branch(models.Model):
     address = models.CharField(max_length=100, verbose_name='Адрес')
     latitude = models.CharField(max_length=100, verbose_name='Широта')
     longitude = models.CharField(max_length=100, verbose_name='Долгота')
-    courses = models.ForeignKey(Courses, related_name='branches', on_delete=models.CASCADE)
+    course = models.ForeignKey(Course, related_name='branches', on_delete=models.CASCADE)
 
     def __unicode__(self):
         return self.address
@@ -34,7 +47,7 @@ class Branch(models.Model):
 class Contact(models.Model):
     type = models.IntegerField(choices=STATUS_CHOICES, default=1)
     value = models.CharField(max_length=100)
-    courses = models.ForeignKey(Courses, related_name='contacts', on_delete=models.CASCADE)
+    course = models.ForeignKey(Course, related_name='contacts', on_delete=models.CASCADE)
 
     def __unicode__(self):
         return self.type

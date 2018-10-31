@@ -3,14 +3,19 @@ from .serializers import *
 from .models import *
 
 
-class CoursesViewSet(generics.ListCreateAPIView):
-    queryset = Courses.objects.all()
-    serializer_class = CoursesSerializer
+class CourseViewSet(generics.ListCreateAPIView):
+    queryset = Course.objects.all()
+    serializer_class = CourseSerializer
 
     def perform_create(self, serializer):
         serializer.save()
 
 
-class CoursesDetailView(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Courses.objects.all()
-    serializer_class = CoursesSerializer
+class CategoryViewSet(generics.ListCreateAPIView):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
+
+
+class CourseDetailView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Course.objects.all()
+    serializer_class = CourseSerializer

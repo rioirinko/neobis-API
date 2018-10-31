@@ -12,7 +12,7 @@ class CoursesTestCase(TestCase):
         self.courses_description = 'Dad'
         self.courses_category = 'Cat'
         self.courses_logo = 'Sun'
-        self.courses = Courses(name=self.courses_name, description=self.courses_description,
+        self.courses = Course(name=self.courses_name, description=self.courses_description,
                                category=self.courses_category, logo=self.courses_logo,)
 
         self.contact_type = 1
@@ -25,10 +25,10 @@ class CoursesTestCase(TestCase):
         self.branch = Branch(address=self.branch_address, latitude=self.branch_latitude,
                              longitude=self.branch_longitude,)
 
-    def test_model_can_create_a_courses(self):
-        old_count = Courses.objects.count()
+    def test_model_can_create_a_course(self):
+        old_count = Course.objects.count()
         self.courses.save()
-        new_count = Courses.objects.count()
+        new_count = Course.objects.count()
         self.assertNotEqual(old_count, new_count)
 
     def test_model_returns_readable_representation(self):
@@ -66,7 +66,7 @@ class ViewsTestCase(TestCase):
         self.assertEqual(self.response.status_code, status.HTTP_201_CREATED)
 
     def test_api_can_get_a_courses(self):
-        courses = Courses.objects.get(id=1)
+        courses = Course.objects.get(id=1)
         response = self.client.get(
             '/courses/',
             kwargs={'pk': courses.id}, format="json")
