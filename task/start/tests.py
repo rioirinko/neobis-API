@@ -3,6 +3,7 @@ from start.models import *
 from rest_framework.test import APIClient
 from rest_framework import status
 from django.core.urlresolvers import reverse
+from rest_framework.response import Response
 
 
 class CoursesTestCase(TestCase):
@@ -68,10 +69,13 @@ class ViewsTestCase(TestCase):
         self.assertEqual(self.response.status_code, status.HTTP_201_CREATED)
 
     def test_api_can_get_a_courses(self):
-        courses = Course.objects.get(id=1)
-        response = self.client.get(
-            '/courses/',
-            kwargs={'pk': courses.id}, format="json")
+        try:
+            courses = Course.objects.get(id=1)
+            response = self.client.get(
+                '/courses/',
+                kwargs={'pk': courses.id}, format="json")
+        except Course.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
 
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertContains(response, courses)
