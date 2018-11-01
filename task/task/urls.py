@@ -23,6 +23,6 @@ urlpatterns = [
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^courses/(?P<pk>[0-9]+)/$', views.CourseDetailView.as_view(), name="details"),
     url(r'^courses/$', views.CourseViewSet.as_view(), name="create"),
-    url(r'^category/$', views.CategoryViewSet.as_view()),
+    url(r'^category/$', views.CategoryViewSet.as_view(), name='category'),
 ]
 urlpatterns = format_suffix_patterns(urlpatterns)
