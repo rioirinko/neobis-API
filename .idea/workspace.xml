@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07411202-974a-4409-90a5-4db881f4320b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/task/start/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/start/tests.py" afterDir="false" />
-    </list>
+    <list default="true" id="07411202-974a-4409-90a5-4db881f4320b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,26 +118,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="6" />
-          <entry key="py" value="65" />
+          <entry key="py" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="65" />
+          <entry key="Python" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="6" />
           <entry key="env" value="32" />
-          <entry key="py" value="4138" />
+          <entry key="py" value="4176" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="4144" />
+          <entry key="Python" value="4182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -154,11 +152,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task/start/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="58">
+              <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task/task/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -185,10 +192,10 @@
         <option value="$PROJECT_DIR$/task/start/views.py" />
         <option value="$PROJECT_DIR$/task/start/admin.py" />
         <option value="$PROJECT_DIR$/task/start/serializers.py" />
-        <option value="$PROJECT_DIR$/task/task/urls.py" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/task/task/settings.py" />
         <option value="$PROJECT_DIR$/task/start/models.py" />
+        <option value="$PROJECT_DIR$/task/task/urls.py" />
         <option value="$PROJECT_DIR$/task/start/tests.py" />
       </list>
     </option>
@@ -199,7 +206,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="650" />
@@ -395,7 +402,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info x="386" y="155" width="288" height="613" id="Project" order="0" sideWeight="0.8042414" visible="true" weight="0.19473264" />
       <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.18923327" side_tool="true" weight="0.1963288" />
@@ -589,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task/task/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task/start/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -638,10 +637,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task/task/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task/start/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="58">
+          <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>

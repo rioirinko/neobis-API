@@ -39,8 +39,10 @@ class CourseTestCase(TestCase):
         new_count = Category.objects.count()
         self.assertNotEqual(old_count, new_count)
 
-    def test_model_returns_readable_representation(self):
+    def test_model_returns_readable_representation_course(self):
         self.assertEqual(str(self.course), self.course_name)
+
+    def test_model_returns_readable_representation_category(self):
         self.assertEqual(str(self.category), self.category_name)
 
 
@@ -85,7 +87,7 @@ class ViewsTestCase(TestCase):
     def test_api_can_create_a_course(self):
         self.assertEqual(self.response.status_code, status.HTTP_201_CREATED)
 
-    def test_api_create_category(self):
+    def test_api_create_a_category(self):
         self.assertEqual(self.response.status_code, status.HTTP_201_CREATED)
 
     def test_api_can_get_a_course(self):
