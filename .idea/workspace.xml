@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07411202-974a-4409-90a5-4db881f4320b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task/task/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/task/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="07411202-974a-4409-90a5-4db881f4320b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +106,7 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.32" value="2" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.35" value="4" />
           <entry key="project.open.time.36" value="1" />
@@ -118,32 +116,35 @@
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.opened" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="6" />
-          <entry key="py" value="68" />
+          <entry key="gitignore" value="2" />
+          <entry key="py" value="69" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="68" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="6" />
           <entry key="env" value="32" />
-          <entry key="py" value="4210" />
+          <entry key="gitignore" value="6" />
+          <entry key="py" value="4211" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="4216" />
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Python" value="4217" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -154,17 +155,7 @@
     <favorites_list name="tasktut" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task/task/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -191,6 +182,7 @@
         <option value="$PROJECT_DIR$/task/start/tests.py" />
         <option value="$PROJECT_DIR$/task/task/urls.py" />
         <option value="$PROJECT_DIR$/task/task/settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -397,7 +389,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info x="386" y="155" width="288" height="613" id="Project" order="0" sideWeight="0.8042414" visible="true" weight="0.207502" />
+      <window_info x="386" y="155" width="288" height="613" id="Project" order="0" sideWeight="0.8042414" visible="true" weight="0.21069433" />
       <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.18923327" side_tool="true" weight="0.1963288" />
       <window_info x="471" y="450" width="285" height="119" id="Favorites" order="2" sideWeight="0.19575857" weight="0.21149242" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -635,19 +627,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
-          <folding>
-            <marker date="1541089506448" expanded="true" signature="1663:1672" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task/task/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task/task/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
+        <state relative-caret-position="-1292">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
