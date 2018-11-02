@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07411202-974a-4409-90a5-4db881f4320b" name="Default Changelist" comment="" />
+    <list default="true" id="07411202-974a-4409-90a5-4db881f4320b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task/task/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task/task/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,7 @@
     <session id="528057976">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="34" />
+          <entry key="project.closed" value="39" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.14" value="1" />
@@ -101,43 +104,46 @@
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.31" value="2" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.34" value="2" />
           <entry key="project.open.time.35" value="4" />
           <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="6" />
-          <entry key="py" value="66" />
+          <entry key="py" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="66" />
+          <entry key="Python" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="6" />
           <entry key="env" value="32" />
-          <entry key="py" value="4176" />
+          <entry key="py" value="4210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="4182" />
+          <entry key="Python" value="4216" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -150,22 +156,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task/start/tests.py">
+        <entry file="file://$PROJECT_DIR$/task/task/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task/task/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+            <state relative-caret-position="253">
+              <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -193,10 +187,10 @@
         <option value="$PROJECT_DIR$/task/start/admin.py" />
         <option value="$PROJECT_DIR$/task/start/serializers.py" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/task/task/settings.py" />
         <option value="$PROJECT_DIR$/task/start/models.py" />
-        <option value="$PROJECT_DIR$/task/task/urls.py" />
         <option value="$PROJECT_DIR$/task/start/tests.py" />
+        <option value="$PROJECT_DIR$/task/task/urls.py" />
+        <option value="$PROJECT_DIR$/task/task/settings.py" />
       </list>
     </option>
   </component>
@@ -206,7 +200,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="650" />
@@ -403,7 +397,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info x="386" y="155" width="288" height="613" id="Project" order="0" sideWeight="0.8042414" visible="true" weight="0.19473264" />
+      <window_info x="386" y="155" width="288" height="613" id="Project" order="0" sideWeight="0.8042414" visible="true" weight="0.207502" />
       <window_info id="Structure" order="1" show_stripe_button="false" sideWeight="0.18923327" side_tool="true" weight="0.1963288" />
       <window_info x="471" y="450" width="285" height="119" id="Favorites" order="2" sideWeight="0.19575857" weight="0.21149242" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -630,27 +624,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task/task/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="85" column="34" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task/task/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+        <state relative-caret-position="223">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task/start/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+        <state relative-caret-position="253">
+          <caret line="114" column="47" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1541089506448" expanded="true" signature="1663:1672" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/task/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/task/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="127" column="46" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
         </state>
       </provider>
     </entry>
